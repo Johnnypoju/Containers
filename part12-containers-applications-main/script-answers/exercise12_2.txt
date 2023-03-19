@@ -1,0 +1,3 @@
+Script started on 2023-03-19 10:44:15+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="125" LINES="63"]
+sudo docker  container run -it ubntuuunmtu bashJuubatuuba420mkdir u/usr/serrc/apptouch /u	s	rc	ap	index.jsexitexit
+Script done on 2023-03-19 10:45:07+02:00 [COMMAND_EXIT_CODE="0"]
