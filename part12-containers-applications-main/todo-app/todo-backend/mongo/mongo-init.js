@@ -1,3 +1,5 @@
+
+print("Start++++++++++++++++++++++++++++++++++++++++++++++")
 db.createUser({
   user: 'the_username',
   pwd: 'the_password',
