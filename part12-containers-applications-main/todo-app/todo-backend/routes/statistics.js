@@ -9,7 +9,7 @@ router.get('/', async (_, res) => {
     if (todoCount == null) {
         const tempCount = await Todo.find({}).countDocuments()
         const response = {
-            added_todos: tempCount
+            added_todos: "${tempCount}"
         }
         await redis.setAsync("todoCount", tempCount)
         res.send(response)
