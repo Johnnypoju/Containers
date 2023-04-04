@@ -22,6 +22,9 @@ services:
       - ./redis_data:/data
   server:
     image: todo-backend
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
     volumes: 
       - ./:/usr/src/app
     ports:
